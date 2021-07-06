@@ -1,0 +1,79 @@
+/* headerのスタイル */
+body{
+    font-family: "Noto Sans JP", "sans-serif";
+    margin: 0;
+    min-width: 1076px;
+}
+
+.profile_img img{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header_icon{
+    list-style: none;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    left: 1%;
+    right: 1%;
+    padding: 0.1%;
+    position: absolute;
+    top: 0px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.profile_text{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 200px;
+    text-align: left;
+
+}
+.name_en{
+    font-size: 80px;
+}
+
+.profile_small_letter{
+    font-size: 25px;
+}
+
+/* aboutテキスト */
+.box-about{
+    text-align: left;
+    margin: 100px;
+    background-color: white;
+    color: #303030;
+
+}
+
+.box-about h6{
+    font-size: 30px;
+    
+}
+
+.about_code{
+    font-size: 22px;
+}
+
+.mail_address{
+    font-size: 15px;
+    text-decoration: none;
+    color: #303030;
+}
+
+.SNS_icon_list{
+    list-style: none;
+    display: flex;
+    padding: 0.1%;
+    position: relative;
+    top: 0px;
+    max-width: 100%;
+}
+
+.SNS_icon_list li{
+    padding:20px 20px 0 0;
+    
+}
